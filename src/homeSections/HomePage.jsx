@@ -1,9 +1,13 @@
+import Header from "../components/Header";
+
 const HomePage = () => {
   return (
     <div>
-      <header></header>
+      <header className="mt-2 mb-2">
+        <Header />
+      </header>
 
-      <section>Home Page</section>
+      <section></section>
       <section></section>
 
       <footer></footer>
