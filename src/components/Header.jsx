@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import { logoVitalya } from "../assets/images";
+import SideBar from "./SideBar";
 
 const Header = () => {
   return (
@@ -56,9 +57,9 @@ const Header = () => {
           </Link>
         </div>
 
-        {/* <div className="hidden max-lg:block">
+        <div className="hidden max-lg:block">
           <SideBar className="lg:hidden" />
-        </div> */}
+        </div>
       </nav>
     </header>
   );
